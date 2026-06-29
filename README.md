@@ -1,15 +1,41 @@
-Credit Card Fraud Detection
+# Dataset Details
 
-This repository contains a machine learning project for detecting fraudulent credit card transactions using classification algorithms.
+## Dataset Name
 
-Dataset
+Credit Card Fraud Detection Dataset
 
-The project uses the Credit Card Fraud Detection dataset from Kaggle.
+## Source
 
-Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Note: The dataset is not included in this repository because it exceeds GitHub's 100 MB file size limit. Download creditcard.csv from the link above and place it inside the dataset/ folder before running the project.
+## Purpose
 
-Goal
+This dataset is used to train and evaluate a machine learning model for detecting fraudulent credit card transactions.
 
-The goal of this project is to build a machine learning model that can accurately classify credit card transactions as legitimate or fraudulent.
+## Number of Records
+
+284,807 transactions
+
+## Features
+
+* Time
+* V1 to V28
+* Amount
+* Class
+
+## Target Variable
+
+Class
+
+* 0 = Legitimate Transaction
+* 1 = Fraudulent Transaction
+
+## Data Format
+
+CSV
+
+## Instructions
+
+1. Download the dataset from the Kaggle link above.
+2. Extract `creditcard.csv`.
+3. Place it inside the `dataset/` folder before running the project.
